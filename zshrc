@@ -13,10 +13,12 @@ export EDITOR="subl -w"
 export PATH=$HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # PHP
-export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH;
+export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH
 
 # NVM
 NVM_DIR=$HOME/.nvm
+
+export PATH=$NVM_DIR/v0.10.26/bin:$PATH
 
 if [[ -s $NVM_DIR/nvm.sh ]]
 	then
@@ -28,14 +30,16 @@ if [[ -r $NVM_DIR/bash_completion ]]
 		source $NVM_DIR/bash_completion
 fi
 
-export PATH=$NVM_DIR/v0.10.26/bin:$PATH;
-
 # RVM
 RVM_DIR=$HOME/.rvm
+
+export PATH=$PATH:$RVM_DIR/bin
 
 if [[ -s $RVM_DIR/scripts/rvm ]]
 	then
 		source $RVM_DIR/scripts/rvm
 fi
 
-export PATH=$PATH:$RVM_DIR/bin
+# Sencha
+
+export PATH=$HOME/bin/Sencha/Cmd/4.0.4.84:$PATH

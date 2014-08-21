@@ -1,16 +1,38 @@
 {
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Tomorrow-Night-Bright (SL).tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache"],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
 	"font_face": "Source Code Pro",
-	"font_options": ["subpixel_antialias"],
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
 	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"shift_tab_unindent": true,
 	"show_full_path": true,
 	"show_minimap": false,
-	"spell_check": true,
-	"trim_trailing_white_space_on_save": true
+	"soda_classic_tabs": true,
+	"spell_check": false,
+	"tab_size": 4,
+	"theme": "Soda Dark 3.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": 120
 }
